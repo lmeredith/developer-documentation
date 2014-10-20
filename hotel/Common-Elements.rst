@@ -13,7 +13,7 @@ Common Elements RQ Example
 
 ::
 
-    <HotelBaseRQ>
+    :rubric:<HotelBaseRQ>
         <echoToken>TEST</echoToken>
         <timeoutMilliseconds>20000</timeoutMilliseconds>
         <source>
