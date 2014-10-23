@@ -1,15 +1,15 @@
 Common Elements
-^^^^^^^^^^^^^^^
-
+===============
 This node will be in every request and response objects. 
 
 The request objects contains the provider's configuration, urls and credentials.
 
 The response object contains the operation status and errors if any.
 
+|
 
-Common Elements RQ Example
-''''''''''''''''''''''''''
+*Common Element*s RQ Example
+----------------------------
 
 ::
 
@@ -38,14 +38,11 @@ Common Elements RQ Example
     </HotelBaseRQ>
 
 | 
-| `toc <#toc>`__
 
---------------
+*Common Elements* RQ Description
+--------------------------------
 
-Common Elements RQ Description
-''''''''''''''''''''''''''''''
 
-| 
 
 +----------------------------------------+----------+-----------+----------------------------------------------------------------------+
 | Element                                | Number   | Type      | Description                                                          |
@@ -90,12 +87,9 @@ Common Elements RQ Description
 +----------------------------------------+----------+-----------+----------------------------------------------------------------------+
 
 | 
-| `toc <#toc>`__
 
---------------
-
-Common Elements RS Example
-''''''''''''''''''''''''''
+*Common Elements RS* Example
+----------------------------
 
 ::
 
@@ -122,14 +116,11 @@ Common Elements RS Example
     </HotelBaseRS>
 
 | 
-| `toc <#toc>`__
 
---------------
+*Common Elements RS Description*
+--------------------------------
 
-Common Elements RS Description
-''''''''''''''''''''''''''''''
 
-| 
 
 +-------------------------------------+----------+-----------+--------------------------------------------------------------------+
 | Element                             | Number   | Type      | Description                                                        |
@@ -163,9 +154,4 @@ Common Elements RS Description
 | auditData/processTimeMilliseconds   | 1        | Integer   | Time in milliseconds consumed by this method.                      |
 +-------------------------------------+----------+-----------+--------------------------------------------------------------------+
 
-| 
-| `toc <#toc>`__
-
---------------
-
-| 
+|

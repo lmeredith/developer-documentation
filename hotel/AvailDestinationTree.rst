@@ -1,34 +1,30 @@
-*AvailDestinationTree* (Destinations Tree of Availability)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AvailDestinationTree
+====================
 
-Method Goals
+**Method Goals**
 
 | 
 | This method returns the tree of destinations accessible from the call
 *Avail* .
 
-Request Format
+|
+
+**Request Format**
 
 | 
 | The request does not require any elements empty request.
 
-Response Format
+|
+
+**Response Format**
 
 | 
 | The result returns a list of *DestinationTree* with their
 corresponding sub-destinations.
 
-Remarks
-
 | 
-| Only implemented for providers that are more than an affordable level
-in availability.
-| `toc <#toc>`__
-
---------------
-
 *AvailDestinationTreeRQ* Example
-''''''''''''''''''''''''''''''''
+--------------------------------
 
 ::
 
@@ -36,28 +32,18 @@ in availability.
     </AvailDestinationTreeRQ>
 
 | 
-| `toc <#toc>`__
-
---------------
-
 *AvailDestinationTreeRQ* Description
-''''''''''''''''''''''''''''''''''''
+------------------------------------
 
-Element
++------------------------+----------+----------+---------------------------------------------------------------------------------------------+
+| Element                | Number   | Type     | Description                                                                                 |
++========================+==========+==========+=============================================================================================+
+| AvailDestinationTreeRQ | 1        |          | Root node.                                                                                  |
++------------------------+----------+----------+---------------------------------------------------------------------------------------------+
 
-Number
-
-Type
-
-Description
-
-| 
-| `toc <#toc>`__
-
---------------
-
+|
 *AvailDestinationTreeRS* Example
-''''''''''''''''''''''''''''''''
+--------------------------------
 
 ::
 
@@ -85,22 +71,13 @@ Description
     </AvailDestinationTreeRS>
 
 | 
-| `toc <#toc>`__
-
---------------
-
 *AvailDestinationTreeRS* Description
-''''''''''''''''''''''''''''''''''''
+------------------------------------
 
-Element
++------------------------+----------+----------+---------------------------------------------------------------------------------------------+
+| Element                | Number   | Type     | Description                                                                                 |
++========================+==========+==========+=============================================================================================+
+| AvailDestinationTreeRS | 1        |          | Root node.                                                                                  |
++------------------------+----------+----------+---------------------------------------------------------------------------------------------+
 
-Number
-
-Type
-
-Description
-
-| 
-| `toc <#toc>`__
-
---------------
+|

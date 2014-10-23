@@ -1,20 +1,23 @@
-*Avail* (Availability)
-^^^^^^^^^^^^^^^^^^^^^^
+Avail
+=====
 
-Method Goals
+**Method Goals**
+
 
 | 
 | This method aims to return all the available options for a given date
 and itinerary. It does not filter different classes, times or fares. It
 will always return all results returned by the provider.
 
-Request Format
+|
+**Request Format**
 
 | 
 | The availability request is very straight forward. It only requires
 the destination, the traveling dates and the paxes of the rooms.
 
-Response Format
+|
+**Response Format**
 
 | 
 | Results are organized in this hierarchy:
@@ -37,7 +40,8 @@ the *options* for this availability.
 | The price returned should be "all inclusive". All fares, taxes and
 discounts are already included in the total price.
 
-Remarks
+|
+**Remarks**
 
 | 
 | This method **must** be called **before** the *Valuation* method.
@@ -54,13 +58,9 @@ Remarks
    is a sale price, and this commission is informed for the provider (
    this price is mandatory depends if binding price is true /false).
 
-| 
-| `toc <#toc>`__
-
---------------
-
+|
 *AvailRQ* Example
-'''''''''''''''''
+-----------------
 
 ::
 
@@ -82,13 +82,9 @@ Remarks
         </RoomCandidates>
     </AvailRQ>
 
-| 
-| `toc <#toc>`__
-
---------------
-
+|
 *AvailRQ* Description
-'''''''''''''''''''''
+---------------------
 
 +------------------------------------------+----------+-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 | Element                                  | Number   | Type      | Description                                                                                                                                         |
@@ -120,13 +116,10 @@ Remarks
 | *@id*                                    | 1        | Integer   | Passenger id (starting at 1).                                                                                                                       |
 +------------------------------------------+----------+-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 
-| 
-| `toc <#toc>`__
 
---------------
-
+|
 *AvailRS* Example
-'''''''''''''''''
+-----------------
 
 ::
 
@@ -192,13 +185,10 @@ Remarks
         </Hotels>
     </AvailRS>
 
-| 
-| `toc <#toc>`__
 
---------------
-
+|
 *AvailRS* Description
-'''''''''''''''''''''
+---------------------
 
 +---------------------------------------------------------------------------------+----------+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Element                                                                         | Number   | Type      | Description                                                                                                                                                                                                       |
@@ -314,7 +304,4 @@ Remarks
 | *@value*                                                                        | 1        | String    | Contains the value of the parameter                                                                                                                                                                               |
 +---------------------------------------------------------------------------------+----------+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-| 
-| `toc <#toc>`__
-
---------------
+|
