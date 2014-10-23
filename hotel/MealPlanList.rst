@@ -64,9 +64,9 @@ Codes <#Link%20to%20List%20of%20Codes>`__
             </MealPlan>
             <MealPlan>
                 <Code>MP</Code>
-                <Name>Media PensiÃ³n</Name>
+                <Name>Media Pensión</Name>
             </MealPlan>
-            â€¦
+            …
             <MealPlan/>
         </MealPlans>
     </MealPlanListRS>

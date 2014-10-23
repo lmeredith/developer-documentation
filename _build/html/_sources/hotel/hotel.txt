@@ -12,7 +12,7 @@ Table Of Contents
   "Intro" <intro>
   "Audience" <audience>
   "Anatomy of a Request" <anatomy-of-a-request>
-  "Document Goals" <document-goals>
+  "Document Goals" <Document-Goals>
   "Service Endpoints" <service-endpoints>
   "General Structure" <general-structure>
 

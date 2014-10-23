@@ -48,7 +48,7 @@ sub-destinations.
 ::
 
     <GeographicDestinationTreeRS>
-        <DestinationTree code = "ES" name = "EspaÃ±a" avail = "False">
+        <DestinationTree code = "ES" name = "España" avail = "False">
             <DestinationLeaf code = "BAL"/>
             <DestinationLeaf code = "AST"/>
             <DestinationLeaf code = "AND"/>

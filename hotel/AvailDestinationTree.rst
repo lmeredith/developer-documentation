@@ -48,7 +48,7 @@ corresponding sub-destinations.
 ::
 
     <AvailDestinationTreeRS>
-        <DestinationTree code = "ES" name = "EspaÃ±a">
+        <DestinationTree code = "ES" name = "España">
             <DestinationLeaf code = "BAL"/>
             <DestinationLeaf code = "AST"/>
             <DestinationLeaf code = "AND"/>

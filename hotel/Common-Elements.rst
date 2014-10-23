@@ -34,7 +34,7 @@ The response object contains the operation status and errors if any.
                 <Parameter key = "SegundoPW" value = "PWXML"/>
             </Parameters>
         </Configuration>
-        â€¦
+        …
     </HotelBaseRQ>
 
 | 
@@ -101,18 +101,18 @@ The response object contains the operation status and errors if any.
             <code>xxx</code>
             <description>xxx</description>
         </applicationErrors>
-        â€¦
+        …
         <auditData>
             <transactions>
                 <timeStamp>2011-10-6T15:19:45.3544495+02:00</timeStamp>
                 <RQ/>
                 <RS/>
             </transactions>
-            â€¦
+            …
             <timeStamp>2011-10-26T15:19:43.4014745+02:00</timeStamp>
             <processTimeMilliseconds>19532</processTimeMilliseconds>
         </auditData>
-        â€¦
+        …
     </HotelBaseRS>
 
 | 
