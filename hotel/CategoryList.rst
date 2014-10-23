@@ -1,31 +1,27 @@
-*CategoryList* (Hotel Category List)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+CategoryList
+============
 
-Method Goals
+**Method Goals**
 
 | 
 | This method aims to return a list of the available categories, which
 will be used in the list of hotels response.
 
-Request Format
+|
+**Request Format**
 
 | 
 | The request does not require any elements empty request.
 
-Response Format
+|
+**Response Format**
 
 | 
 | The result returns a list of *Category* .
 
-Remarks
-
 | 
-| `toc <#toc>`__
-
---------------
-
 *CategoryListRQ* Example
-''''''''''''''''''''''''
+------------------------
 
 ::
 
@@ -33,28 +29,18 @@ Remarks
     </CategoryListRQ>
 
 | 
-| `toc <#toc>`__
-
---------------
-
 *CategoryListRQ* Description
-''''''''''''''''''''''''''''
+----------------------------
 
-Element
++---------------------+----------+----------+---------------------------------------------------------------------------------------------+
+| Element             | Number   | Type     | Description                                                                                 |
++=====================+==========+==========+=============================================================================================+
+| CategoryListRQ      | 1        |          | Root node.                                                                                  |
++---------------------+----------+----------+---------------------------------------------------------------------------------------------+
 
-Number
-
-Type
-
-Description
-
-| 
-| `toc <#toc>`__
-
---------------
-
+|
 *CategoryListRS* Example
-''''''''''''''''''''''''
+------------------------
 
 ::
 
@@ -74,22 +60,13 @@ Description
     </CategoryListRS>
 
 | 
-| `toc <#toc>`__
-
---------------
-
 *CategoryListRS* Description
-''''''''''''''''''''''''''''
+----------------------------
 
-Element
++---------------------+----------+----------+---------------------------------------------------------------------------------------------+
+| Element             | Number   | Type     | Description                                                                                 |
++=====================+==========+==========+=============================================================================================+
+| CategoryListRQ      | 1        |          | Root node.                                                                                  |
++---------------------+----------+----------+---------------------------------------------------------------------------------------------+
 
-Number
-
-Type
-
-Description
-
-| 
-| `toc <#toc>`__
-
---------------
+|

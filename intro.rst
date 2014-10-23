@@ -1,5 +1,6 @@
+########################
 XML Travelgate Hotel API
-------------------------
+########################
 
 The XML Travelgate Hotel API allows clients to access content from XML
 Travelgate's inventory of partners. Currently there are more than 70

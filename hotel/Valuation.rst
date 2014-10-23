@@ -1,39 +1,27 @@
-*Valuation* (Pre-Booking)
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Valuation
+=========
 
-Method Goals
-
-| 
-| This method aims to return the total price and cancel policies of the
-selected *Option*. This *Option* **must** be selected in the previous
-step (*Avail*).
-
-Request Format
+**Method Goals**
 
 | 
-| The *Valuation* request is same that availabilityRQ and add rooms and
-Mealplan code.
+| This method aims to return the total price and cancel policies of the selected *Option*. This *Option* **must** be selected in the previous step (*Avail*).
 
-Response Format
-
-| 
-| The returned XML contains the total price and list of cancel policies.
-Sometimes this method will fail since the selected option at *Avail*
-time will not be available in this stage. In this case the integration
-returns an error code 301.
-
-Remarks
+|
+**Request Format**
 
 | 
-| Some providers do not support this method. In this case all the info
-**must** be returned in *Avail* and this method will do a *Avail* again
-filtered by the selected option.
-| `toc <#toc>`__
+| The *Valuation* request is same that availabilityRQ and add rooms and Mealplan code.
 
---------------
+|
+**Response Format**
+
+| 
+| The returned XML contains the total price and list of cancel policies. Sometimes this method will fail since the selected option at *Avail* time will not be available in this stage. In this case the integration returns an error code 301.
+
+|
 
 *ValuationRQ* Example
-'''''''''''''''''''''
+---------------------
 
 ::
 
@@ -57,13 +45,9 @@ filtered by the selected option.
         </RoomCandidates>
     </ValuationRQ>
 
-| 
-| `toc <#toc>`__
-
---------------
-
+|
 *ValuationRQ* Description
-'''''''''''''''''''''''''
+-------------------------
 
 +------------------------------------------+----------+-----------+-------------------------------------------------------------------------+
 | Element                                  | Number   | Type      | Description                                                             |
@@ -116,12 +100,8 @@ filtered by the selected option.
 +------------------------------------------+----------+-----------+-------------------------------------------------------------------------+
 
 | 
-| `toc <#toc>`__
-
---------------
-
 *ValuationRS* Example
-'''''''''''''''''''''
+---------------------
 
 ::
 
@@ -140,12 +120,8 @@ filtered by the selected option.
     </ValuationRS>
 
 | 
-| `toc <#toc>`__
-
---------------
-
 *ValuationRS* Description
-'''''''''''''''''''''''''
+-------------------------
 
 +---------------------------------------------+----------+-----------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Element                                     | Number   | Type      | Description                                                                                                                                             |
@@ -189,7 +165,4 @@ filtered by the selected option.
 | Remarks                                     | 0..1     | String    | Remarks.                                                                                                                                                |
 +---------------------------------------------+----------+-----------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-| 
-| `toc <#toc>`__
-
---------------
+|

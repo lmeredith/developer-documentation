@@ -1,32 +1,30 @@
-*GeographicDestinationTree* (Geographic Destinations Tree)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+GeographicDestinationTree
+=========================
 
-Method Goals
+**Method Goals**
 
 | 
 | This method returns the provider's geographic tree where each node
 indicates whether the call is accessible from availability.
 
-Request Format
+|
+
+**Request Format**
 
 | 
 | The request not requires any element, it is empty.
 
-Response Format
+|
+
+**Response Format**
 
 | 
 | The result returns a list of *DestinationTree* with corresponding
 sub-destinations.
 
-Remarks
-
 | 
-| `toc <#toc>`__
-
---------------
-
 *GeographicDestinationTreeRQ* Example
-'''''''''''''''''''''''''''''''''''''
+-------------------------------------
 
 ::
 
@@ -34,33 +32,23 @@ Remarks
     </GeographicDestinationTreeRQ>
 
 | 
-| `toc <#toc>`__
-
---------------
-
 *GeographicDestinationTreeRQ* Description
-'''''''''''''''''''''''''''''''''''''''''
+-----------------------------------------
 
-Element
++----------------------------+----------+----------+---------------------------------------------------------------------------------------------+
+| Element                    | Number   | Type     | Description                                                                                 |
++============================+==========+==========+=============================================================================================+
+| GeographicDestinationTreeRQ| 1        |          | Root node.                                                                                  |
++----------------------------+----------+----------+---------------------------------------------------------------------------------------------+
 
-Number
-
-Type
-
-Description
-
-| 
-| `toc <#toc>`__
-
---------------
-
+|
 *GeographicDestinationTreeRS* Example
-'''''''''''''''''''''''''''''''''''''
+-------------------------------------
 
 ::
 
     <GeographicDestinationTreeRS>
-        <DestinationTree code = "ES" name = "España" avail = "False">
+        <DestinationTree code = "ES" name = "EspaÃ±a" avail = "False">
             <DestinationLeaf code = "BAL"/>
             <DestinationLeaf code = "AST"/>
             <DestinationLeaf code = "AND"/>
@@ -84,22 +72,13 @@ Description
     </GeographicDestinationTreeRS>
 
 | 
-| `toc <#toc>`__
-
---------------
-
 *GeographicDestinationTreeRS* Description
-'''''''''''''''''''''''''''''''''''''''''
+-----------------------------------------
 
-Element
++----------------------------+----------+----------+---------------------------------------------------------------------------------------------+
+| Element                    | Number   | Type     | Description                                                                                 |
++============================+==========+==========+=============================================================================================+
+| GeographicDestinationTreeRS| 1        |          | Root node.                                                                                  |
++----------------------------+----------+----------+---------------------------------------------------------------------------------------------+
 
-Number
-
-Type
-
-Description
-
-| 
-| `toc <#toc>`__
-
---------------
+|
