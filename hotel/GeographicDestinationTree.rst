@@ -1,30 +1,32 @@
-GeographicDestinationTree
-=========================
+*GeographicDestinationTree* (Geographic Destinations Tree)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Method Goals**
+Method Goals
 
 | 
 | This method returns the provider's geographic tree where each node
 indicates whether the call is accessible from availability.
 
-|
-
-**Request Format**
+Request Format
 
 | 
 | The request not requires any element, it is empty.
 
-|
-
-**Response Format**
+Response Format
 
 | 
 | The result returns a list of *DestinationTree* with corresponding
 sub-destinations.
 
+Remarks
+
 | 
+| `toc <#toc>`__
+
+--------------
+
 *GeographicDestinationTreeRQ* Example
--------------------------------------
+'''''''''''''''''''''''''''''''''''''
 
 ::
 
@@ -32,18 +34,28 @@ sub-destinations.
     </GeographicDestinationTreeRQ>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *GeographicDestinationTreeRQ* Description
------------------------------------------
+'''''''''''''''''''''''''''''''''''''''''
 
-+----------------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element                    | Number   | Type     | Description                                                                                 |
-+============================+==========+==========+=============================================================================================+
-| GeographicDestinationTreeRQ| 1        |          | Root node.                                                                                  |
-+----------------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
-|
+Number
+
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------
+
 *GeographicDestinationTreeRS* Example
--------------------------------------
+'''''''''''''''''''''''''''''''''''''
 
 ::
 
@@ -72,13 +84,22 @@ sub-destinations.
     </GeographicDestinationTreeRS>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *GeographicDestinationTreeRS* Description
------------------------------------------
+'''''''''''''''''''''''''''''''''''''''''
 
-+----------------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element                    | Number   | Type     | Description                                                                                 |
-+============================+==========+==========+=============================================================================================+
-| GeographicDestinationTreeRS| 1        |          | Root node.                                                                                  |
-+----------------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
-|
+Number
+
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------

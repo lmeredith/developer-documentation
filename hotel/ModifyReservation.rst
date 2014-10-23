@@ -1,28 +1,30 @@
-ModifyReservation
-=================
+*ModifyReservation* (Modify Reservation)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Method Goals**
+Method Goals
 
 | 
 | This message confirm a modification
 
-|
-
-**Request Format**
+Request Format
 
 | 
 | The request require the valuation returned for ModifyValuationRS
 
-|
-
-**Response Format**
+Response Format
 
 | 
 | The XML returned contains a confirmation booking
 
+Remarks
+
 | 
+| `toc <#toc>`__
+
+--------------
+
 *ModifyReservationRQ* Example
------------------------------
+'''''''''''''''''''''''''''''
 
 ::
 
@@ -81,8 +83,14 @@ ModifyReservation
     </ModifyReservationRQ>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *ModifyReservationRQ* Description
----------------------------------
+'''''''''''''''''''''''''''''''''
+
+| 
 
 +-----------------------------------------------------------------------------+----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Element                                                                     | Number   | Type      | Description                                                                                                                                              |
@@ -199,8 +207,12 @@ ModifyReservation
 +-----------------------------------------------------------------------------+----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *ModifyReservationRS* Example
------------------------------
+'''''''''''''''''''''''''''''
 
 ::
 
@@ -211,8 +223,14 @@ ModifyReservation
     </ModifyReservationRS>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *ModifyReservationRS* Description
----------------------------------
+'''''''''''''''''''''''''''''''''
+
+| 
 
 +---------------------+----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Element             | Number   | Type      | Description                                                                                                                                              |
@@ -234,4 +252,7 @@ ModifyReservation
 | *@commission*       | 1        | Decimal   | Commission ( -1 = not specified (will come indicated with the provider contract ), 0 = net price, X = % of the commission that applies to the amount).   |
 +---------------------+----------+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-|
+| 
+| `toc <#toc>`__
+
+--------------

@@ -1,13 +1,13 @@
-ReservationList
-===============
+*ReservationList* (Get Booking List)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Method Goals**
+Method Goals
 
 | 
 | This method aims to return a list of bookings for a given time period
 being that either booking date or the traveling date.
 
-**Request Format**
+Request Format
 
 | 
 | The request requires one of the following data depending on provider:
@@ -19,15 +19,22 @@ being that either booking date or the traveling date.
 
 | 
 
-**Response Format**
+Response Format
 
 | 
 | The result returns a list of bookings details, with the same format as
 *ReservationReadRS*.
 
-|
+Remarks
+
+| 
+| Not implemented by all providers
+| `toc <#toc>`__
+
+--------------
+
 *ReservationListRQ* Example
----------------------------
+'''''''''''''''''''''''''''
 
 ::
 
@@ -38,9 +45,12 @@ being that either booking date or the traveling date.
     </ReservationListRQ>
 
 | 
+| `toc <#toc>`__
+
+--------------
 
 *ReservationListRQ* Description
--------------------------------
+'''''''''''''''''''''''''''''''
 
 +---------------------+----------+----------+---------------------------------------------------------+
 | Element             | Number   | Type     | Description                                             |
@@ -57,8 +67,12 @@ being that either booking date or the traveling date.
 +---------------------+----------+----------+---------------------------------------------------------+
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *ReservationListRS* Example
----------------------------
+'''''''''''''''''''''''''''
 
 ::
 
@@ -137,8 +151,12 @@ being that either booking date or the traveling date.
     </ReservationListRS>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *ReservationListRS* Description
--------------------------------
+'''''''''''''''''''''''''''''''
 
 +----------------------------------------------+----------+--------+----------------------------------------+
 | Element                                      | Number   | Type   | Description                            |
@@ -149,3 +167,8 @@ being that either booking date or the traveling date.
 +----------------------------------------------+----------+--------+----------------------------------------+
 | ReservationListRS/Reservations/Reservation   | 1        |        | Same structure as ReservationReadRS.   |
 +----------------------------------------------+----------+--------+----------------------------------------+
+
+| 
+| `toc <#toc>`__
+
+--------------

@@ -1,39 +1,35 @@
-MealPlanList
-============
+*MealPlanList* (MealPlan List)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Method Goals**
+Method Goals
 
 | 
 | This method aims to return a list of the available Mealplans, which
 will be used in the availability response.
 
-|
-
-**Request Format**
+Request Format
 
 | 
 | The request does not require any elements empty request.
 
-|
-
-**Response Format**
+Response Format
 
 | 
 | The result returns a list of *MealPlan*.
 
-|
-
-**Remarks**
+Remarks
 
 | 
 | If the provider has more than 100 mealplan codes, or more than 20
 codes for one single mealplan, this code will be mapped to XML
 Travelgate's code. `Link to List of
 Codes <#Link%20to%20List%20of%20Codes>`__
+| `toc <#toc>`__
 
-|
+--------------
+
 *MealPlanRQ* Example
---------------------
+''''''''''''''''''''
 
 ::
 
@@ -41,18 +37,28 @@ Codes <#Link%20to%20List%20of%20Codes>`__
     </MealPlanListRQ>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *MealPlanListRQ* Description
-----------------------------
+''''''''''''''''''''''''''''
 
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element             | Number   | Type     | Description                                                                                 |
-+=====================+==========+==========+=============================================================================================+
-| MealPlanListRQ      | 1        |          | Root node.                                                                                  |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
-|
+Number
+
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------
+
 *MealPlanListRS* Example
-------------------------
+''''''''''''''''''''''''
 
 ::
 
@@ -72,13 +78,22 @@ Codes <#Link%20to%20List%20of%20Codes>`__
     </MealPlanListRS>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *MealPlanListRS* Description
-----------------------------
+''''''''''''''''''''''''''''
 
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element             | Number   | Type     | Description                                                                                 |
-+=====================+==========+==========+=============================================================================================+
-| MealPlanListRS      | 1        |          | Root node.                                                                                  |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
-|
+Number
+
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------

@@ -1,14 +1,12 @@
-Cancel
-======
+*Cancel* (Cancel Booking)
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Method Goals**
+Method Goals
 
 | 
 | This method aims to cancel a booking
 
-|
-
-**Request Format**
+Request Format
 
 | 
 | The request requires one of the following data depending on provider:
@@ -22,15 +20,22 @@ Cancel
 
 | 
 
-**Response Format**
+Response Format
 
 | 
 | The result returns a response with the state of booking, the
 cancellation's identification and the fee for that cancellation.
 
-|
+Remarks
+
+| 
+| Not supported by all providers
+| `toc <#toc>`__
+
+--------------
+
 *CancelRQ* Example
-------------------
+''''''''''''''''''
 
 ::
 
@@ -44,8 +49,12 @@ cancellation's identification and the fee for that cancellation.
     </CancelRQ>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *CancelRQ* Description
-----------------------
+''''''''''''''''''''''
 
 +---------------------+----------+----------+---------------------------------------------------------------------------------------------+
 | Element             | Number   | Type     | Description                                                                                 |
@@ -66,8 +75,12 @@ cancellation's identification and the fee for that cancellation.
 +---------------------+----------+----------+---------------------------------------------------------------------------------------------+
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *CancelRS* Example
-------------------
+''''''''''''''''''
 
 ::
 
@@ -83,40 +96,119 @@ cancellation's identification and the fee for that cancellation.
     </CancelRS>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *CancelRS* Description
-----------------------
+''''''''''''''''''''''
 
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element             | Number   | Type     | Description                                                                                 |
-+=====================+==========+==========+=============================================================================================+
-| CancelRS            | 1        |          | Root node.                                                                                  |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| ProviderLocator     | 1        | String   | Provider locator.                                                                           |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| CancelId            | 0..1     | String   | Cancellation id.                                                                            |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Price               | 0..1     |          | Price cancellation.                                                                         |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| @currency           | 1        | String   | Currency code.                                                                              |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| @amount             | 1        | Decimal  | Book Amount.                                                                                |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| @binding            | 1        | boolean  | Identifies if is the price is binding ( When true the sale price returned **must** not be   |
-|                     |          |          | less than the price informed.                                                               |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| @commission         | 1        | Decimal  | Commission ( -1 = not specified (will come indicated with the provider contract ), 0 = net  |
-|                     |          |          | price, X = % of the commission that applies to the amount.                                  |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| TransactionStatus   | 1        |          | Transaction Status.                                                                         |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| TransactionStatus   | 1        | String   | Status communication ( OFFLINE, OK and KO).                                                 |
-| /ComunicationStatus |          |          |                                                                                             |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| TransactionStatus   | 1        | String   | Status response (DESCONOCIDO (Unknown), EXISTE (Exists), EXISTECANCELADA                    |
-| /RSStatus           |          |          | (Cancelled), NO\_EXISTE (Does not exist)).                                                  |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| TransactionStatus   | 1        | String   | Status booking (OK = confirmed, RQ = on request, CN = canceled, UN = unknown).              |
-| /ResStatus          |          |          |                                                                                             |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
-|
+Number
+
+Type
+
+Description
+
+]
+
+CancelRS
+
+1
+
+\|Root node.
+
+ProviderLocator
+
+1
+
+String
+
+Provider locator.
+
+CancelId
+
+0..1
+
+String
+
+Cancelation id.
+
+Price
+
+0..1
+
+\|Price cancelation.
+
+*@currency*
+
+1
+
+String
+
+Currency code.
+
+*@amount*
+
+1
+
+Decimal
+
+Book Amount.
+
+*@binding*
+
+1
+
+Boolean
+
+Identifies if is the price is binding ( When true the sale price
+returned **must** not be less than the price informed.
+
+*@commission*
+
+1
+
+Decimal
+
+Commission ( -1 = not specified (will come indicated with the provider
+contract ), 0 = net price, X = % of the commission that applies to the
+amount.
+
+TransactionStatus
+
+1
+
+Transaction Status.
+
+TransactionStatus/ComunicationStatus
+
+1
+
+String
+
+Status communication ( OFFLINE, OK and KO) .
+
+TransactionStatus/RSStatus
+
+1
+
+String
+
+Status response (DESCONOCIDO (Unknown), EXISTE (Exists), EXISTECANCELADA
+(Canceled), NO\_EXISTE (Does not exist)).
+
+TransactionStatus/ResStatus
+
+1
+
+String
+
+Status booking (OK = confirmed, RQ = on request, CN = canceled, UN =
+unknown).
+
+| 
+| `toc <#toc>`__
+
+--------------

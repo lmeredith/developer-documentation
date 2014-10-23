@@ -1,22 +1,18 @@
-StaticConfiguration
-===================
+*StaticConfiguration* (Static Configuration)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Method Goals**
+Method Goals
 
 | 
 | This message provides information about the static configuration of
 the provider, to see and configure the provider in the best way.
 
-|
-
-**Request Format**
+Request Format
 
 | 
 | The request does not require any elements empty request.
 
-|
-
-**Response Format**
+Response Format
 
 | 
 | The XML returned contains more elements on the configuration (number
@@ -25,9 +21,15 @@ if the provider returns the cancellation policies, maximum number of
 distributions, maximum number of paxes in a distribution, release days,
 stay minimum, list of languages that allows ....).
 
+Remarks
+
 | 
+| `toc <#toc>`__
+
+--------------
+
 *StaticConfigurationRQ* Example
--------------------------------
+'''''''''''''''''''''''''''''''
 
 ::
 
@@ -35,18 +37,28 @@ stay minimum, list of languages that allows ....).
     </StaticConfigurationRQ>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *StaticConfigurationRQ* Description
------------------------------------
+'''''''''''''''''''''''''''''''''''
 
-+----------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element              | Number   | Type     | Description                                                                                 |
-+======================+==========+==========+=============================================================================================+
-| StaticConfigurationRQ| 1        |          | Root node.                                                                                  |
-+----------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
-|
+Number
+
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------
+
 *StaticConfigurationRS* Example
--------------------------------
+'''''''''''''''''''''''''''''''
 
 ::
 
@@ -115,14 +127,22 @@ stay minimum, list of languages that allows ....).
     </StaticConfigurationRS>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *StaticConfigurationRS* Description
------------------------------------
+'''''''''''''''''''''''''''''''''''
 
+Element
 
-+----------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element              | Number   | Type     | Description                                                                                 |
-+======================+==========+==========+=============================================================================================+
-| StaticConfigurationRS| 1        |          | Root node.                                                                                  |
-+----------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Number
 
-|
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------

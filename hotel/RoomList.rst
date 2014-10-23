@@ -1,38 +1,34 @@
-RoomList
-========
+*RoomList* (Room Type List)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Method Goals**
+Method Goals
 
 | 
 | This method aims to return a list of the available rooms code, which
 will be used in the availability response.
 
-|
-
-**Request Format**
+Request Format
 
 | 
 | The request does not require any elements empty request.
 
-|
-
-**Response Format**
+Response Format
 
 | 
 | The result returns a list of *RoomInfo*.
 
-|
-
-**Remarks**
+Remarks
 
 | 
 | This message must be implemented solely in case it can not be provided
 the description is room in the hotel availability. ( It is indicated in
 *StaticConfiguration* )
+| `toc <#toc>`__
 
-|
+--------------
+
 *RoomListRQ* Example
---------------------
+''''''''''''''''''''
 
 ::
 
@@ -40,18 +36,28 @@ the description is room in the hotel availability. ( It is indicated in
     </RoomListRQ>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *RoomListRQ* Description
-------------------------
+''''''''''''''''''''''''
 
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element             | Number   | Type     | Description                                                                                 |
-+=====================+==========+==========+=============================================================================================+
-| RoomListRQ          | 1        |          | Root node.                                                                                  |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
-|
+Number
+
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------
+
 *RoomListRS* Example
---------------------
+''''''''''''''''''''
 
 ::
 
@@ -71,13 +77,22 @@ the description is room in the hotel availability. ( It is indicated in
     </RoomListRS>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *RoomListRS* Description
-------------------------
+''''''''''''''''''''''''
 
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element             | Number   | Type     | Description                                                                                 |
-+=====================+==========+==========+=============================================================================================+
-| RoomListRS          | 1        |          | Root node.                                                                                  |
-+---------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
-|
+Number
+
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------

@@ -1,6 +1,5 @@
-########
 Audience
-########
+--------
 
 This document is intended to a technical audience. Prior knowledge of
 XML is required.

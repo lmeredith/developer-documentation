@@ -1,29 +1,31 @@
-RuntimeConfiguration
-====================
+*RuntimeConfiguration* (RunTime Configuration)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Method Goals**
+Method Goals
 
 | 
 | This message lets you know the provider configuration template.
 
-|
-
-**Request Format**
+Request Format
 
 | 
 | The request does not require any elements empty request.
 
-|
-
-**Response Format**
+Response Format
 
 | 
 | The returned XML contains a template of all fields used by the
 provider.
 
+Remarks
+
 | 
-RuntimeConfigurationRQ Example
-------------------------------
+| `toc <#toc>`__
+
+--------------
+
+*RuntimeConfigurationRQ* Example
+''''''''''''''''''''''''''''''''
 
 ::
 
@@ -31,19 +33,28 @@ RuntimeConfigurationRQ Example
     </RuntimeConfigurationRQ>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *RuntimeConfigurationRQ* Description
-------------------------------------
+''''''''''''''''''''''''''''''''''''
 
-+-----------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element               | Number   | Type     | Description                                                                                 |
-+=======================+==========+==========+=============================================================================================+
-| RuntimeConfigurationRQ| 1        |          | Root node.                                                                                  |
-+-----------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
+Number
 
-|
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------
+
 *RuntimeConfigurationRS* Example
---------------------------------
+''''''''''''''''''''''''''''''''
 
 ::
 
@@ -59,13 +70,22 @@ RuntimeConfigurationRQ Example
     </RuntimeConfigurationRS>
 
 | 
+| `toc <#toc>`__
+
+--------------
+
 *ConfiguracionRunTimeRS* Description
-------------------------------------
+''''''''''''''''''''''''''''''''''''
 
-+-----------------------+----------+----------+---------------------------------------------------------------------------------------------+
-| Element               | Number   | Type     | Description                                                                                 |
-+=======================+==========+==========+=============================================================================================+
-| RuntimeConfigurationRS| 1        |          | Root node.                                                                                  |
-+-----------------------+----------+----------+---------------------------------------------------------------------------------------------+
+Element
 
-|
+Number
+
+Type
+
+Description
+
+| 
+| `toc <#toc>`__
+
+--------------
