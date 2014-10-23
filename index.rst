@@ -3,23 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-<<<<<<< HEAD
 ###################################################   
 Welcome to XML Travelgate API Docs's documentation!
 ###################################################
-=======
-####################################################
-Welcome to XML Traveelgate API Docs's documentation!
-####################################################
->>>>>>> origin/master
 
 **Contents:**
 
 .. toctree::
   :maxdepth: 3
   :numbered:
-  
-<<<<<<< HEAD
+
   Change Log<change-log.rst>
   Intro<intro.rst>
   Audience<audience.rst>
@@ -32,18 +25,7 @@ Welcome to XML Traveelgate API Docs's documentation!
   
    
 
-Index and tables
-=======
-  Change Log <./change-log.rst>
-  Intro <./intro.rst>
-  Audience <./audience.rst>
-  Anatomy of a Request <./anatomy-of-a-request.rst>
-  Document Goals <./document-goals.rst>
-  Service Endpoints <./service-endpoints.rst>
-  General Structure <./general-structure.rst>
-  
-  Indices and tables
->>>>>>> origin/master
+  Index and tables
 ==================
 
 * :ref:`genindex` 
